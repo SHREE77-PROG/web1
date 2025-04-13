@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .head {
+    background-color: blueviolet;
+    height: 80px;
+    width: 20%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: brown;
+    height: 80px;
+    width: 80%;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.asid {
+    background-color: chocolate;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    float: left;
+}
+
+.art {
+    background-color: darkcyan;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    float: left;
+}
+
+.sect {
+    clear: both;
+    background-color: black;
+    height: 80px;
+    float: left;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot {
+    background-color: brown;
+    height: 80px;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    float: left;
+}
+
+.clr {
+    background-color: rgb(236, 165, 165);
+    padding: 20px;
+    height: 500px;
+}
+
+.bx {
+    background-color: aquamarine;
+    margin: 10px;
+    height: 10%;
+    width: 100px;
+    display: inline-block;
+}
+
+@media(max-width:1000px) {
+    .bx {
+        height: 10%;
+        width: 300px;
+    }
+}
+
+
+@media(max-width:690px) {
+    .bx {
+        height: 10%;
+        width: 100px;
+    }
+}
+
+@media(max-width:290px) {
+    .bx {
+        height: 10%;
+        width: 50px;
+    }
+} */
+
+/* nav {
+    background-color: blueviolet;
+
+}
+
+.mav {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.mav a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.mav a:hover {
+    background-color: aqua;
+}
+
+.ham {
+    display: none;
+}
+
+@media(max-width:650px) {
+    .mav {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(225, 14, 14);
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .ham {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .ham:hover+.mav,
+    .mav:hover {
+        display: block;
+    }
+
+}
+
+.item1 {
+    min-height: 100px;
+    width: 100px;
+    background-color: blue;
+    width: 100%;
+    grid-row: span 2;
+   
+   
+
+}
+
+.item2 {
+    min-height: 100px;
+    background-color: rgb(255, 21, 0);
+    width: 100%;
+    grid-column: span 2;
+
+
+}
+
+.item3 {
+    min-height: 100px;
+    background-color: rgb(200, 255, 0);
+    width: 100%;
+    
+
+
+}
+
+.item4 {
+    min-height: 100px;
+    background-color: rgb(0, 255, 0);
+    width: 100%;
+    grid-row: span 2;
+  
+}
+
+.item5 {
+    min-height: 100px;
+    background-color: rgb(0, 204, 255);
+    width: 100%;
+    grid-column: span 2;
+
+   
+
+}
+
+.item6 {
+    min-height: 100px;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+  
+}
+
+.item7 {
+    min-height: 100px;
+    background-color: rgb(0, 255, 0);
+    width: 100%;
+  
+}
+.item {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+} */
+/* 
+div{
+    min-height: 100px;
+    min-width: 100px;
+    border: 2px solid grey;
+    padding: 10px;
+} */
+
+.invalid{
+    border: 1px solid red;
+    background-color: brown;
+}
+#error{
+color: red;
+}
+
+li{
+    cursor: pointer;
+}
+li:focus{
+    border: 2px dashed green;
+}
+
+#div1{
+    height: 500px;
+    width: 100%;
+    border: 2px solid grey;
+    box-shadow: 10px 10px 10px red;
+}

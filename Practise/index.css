@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(241, 10, 10);
+}
+
+.head {
+    background-color: aqua;
+    height: 80px;
+    width: 70%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav {
+    background-color: blue;
+    height: 80px;
+    width: 30%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect {
+    background-color: brown;
+    width: 30%;
+    float: left;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot {
+    background-color: blueviolet;
+    width: 70%;
+    float: left;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.van {
+    display: flex;
+    background-color: rgb(54, 231, 42);
+    height: 50px;
+    align-items: center;
+
+
+}
+
+.van li {
+    list-style-type: none;
+
+}
+
+.van a {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.van a:hover {
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+img {
+    float: left;
+}
+
+#flt {
+    margin-top: 55px;
+    margin-right: 50px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+.menuico {
+    background-color: grey;
+    font-size: 30px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.fa-youtube {
+    font-size: 30px;
+    color: rgb(237, 227, 220);
+}
+
+.fa-square-instagram {
+    font-size: 35px;
+    color: rgb(237, 227, 220);
+}
+
+.fa-square-x-twitter {
+    font-size: 35px;
+    color: rgb(237, 227, 220);
+}
+
+.grd {
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}

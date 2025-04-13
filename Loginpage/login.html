@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+                <div class="div4"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <form action="" method="get" autocomplete="on">
+        <div class="back">
+            <div class="login">
+                <h1>Login Page</h1>
+                <div class="input1">
+                    <input type="text" class="textfield" placeholder="Enterusername" name="User" required>
+                </div>
+                <div class="input1">
+                    <input type="password" class="textfield" placeholder="Enterpassword" name="pass" required>
+                </div>
+                <div class="input1">
+                    <input type="checkbox" class="check" name="" id=""><label for="">Please do check the box</label>
+                </div>
+                <div class="input1">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form> -->
+    <!-- <ul id="idr">
+
+    </ul>
+
+    <script>
+        function greet() {
+            let result = []
+            for (let i = 1; i <= 5; i++) {
+                let lis = document.createElement('li')
+                lis.append(i)
+                result.push(lis)
+            }
+            return result;
+        }
+        idr.append(...greet())
+    </script> -->
+
+    <!-- clickEvent -->
+    <!-- ====================== -->
+    <input type="button" id="elem" value="click">
+
+
+    <script>
+        // elem.onclick=function(){
+        //     alert("hello shreedhar")
+        // }
+
+        // elem.addEventListener('click',function(){
+        //     alert('hello kiran')
+        // })
+
+        //addEventListener
+
+        //EventHandler:event handler not only for function but also object and classes
+        //======================
+        //syntax:-element.addEventListener('event',handler(function,object,classes))
+
+        // function handler1() {
+        //     alert('thank you vary much')
+        // }
+
+        // function handler2() {
+        //     alert('Not bad not bad')
+        // }
+        // elem.addEventListener("click", handler1)
+        // elem.addEventListener("click", handler2)
+
+        // elem.addEventListener("click", function () {
+        //     alert(event.type + " " + event.currentTarget)
+        // })
+
+        // let obj = {
+        //     handleEvent(event) {
+        //         alert(event.type + " " + event.currentTarget)
+        //     }
+        // };
+
+        // elem.addEventListener("click", obj);  //for object and class handler we have to use handleEvent(event) method
+        //obj.handleEvent(event)
+        //class.handleEvent(event)
+
+        // class Menu {
+        //     handleEvent(event) {
+        //         alert(event.type + ' that is ' + event.currentTarget)
+        //     }
+        // }
+        // let menu = new Menu()
+        // elem.addEventListener('click', menu)
+
+        // const div1 = document.querySelector('.div1')
+        // const div2 = document.querySelector('.div2')
+        // const div3 = document.querySelector('.div3')
+        // const div4 = document.querySelector('.div4')
+
+
+        div1.addEventListener('click', function () {
+            console.log('div1 is clicked')
+        }, true)
+
+        div2.addEventListener('click', function () {
+            console.log('div2 is clicked')
+
+        }, true)
+
+        div3.addEventListener('click', function (e) {
+            console.log('div3 is clicked')
+            e.stopPropagation()
+        }, true)
+
+        div4.addEventListener('click', function () {
+            console.log('div4 is clicked')
+        }, true)
+     </script>
+
+
+</body>
+
+</html>
